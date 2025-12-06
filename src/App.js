@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './App.css';
 
 function App() {
-  const ADMIN_EMAIL = "kc7enriquez@gmail.com"; // Change this to update admin email
+  const ADMIN_EMAIL = "maniladoonside@gmail.com"; // Change this to update admin email
   const ADMIN_BCC_EMAIL = "kiefer@kooryr.com"; // BCC email (note: EmailJS doesn't support true BCC, this will be added as additional recipient)
   
   const [carouselIndex, setCarouselIndex] = useState(0);
@@ -164,7 +164,7 @@ function App() {
         {/* 3. COMMUNITY INVITATION (Survey) */}
         <section id="survey" className="w-full bg-slate-50 border-t border-gray-200">
           <div className="w-full h-72 bg-gray-200 relative">
-            <img src="https://placehold.co/1920x500/f1f5f9/64748b?text=Community+Lifestyle+%26+Food" alt="Community Food" className="w-full h-full object-cover" />
+            <img src="/Manilatown_community.png" alt="Community Food" className="w-full h-full object-cover" />
           </div>
           <div className="max-w-3xl mx-auto px-6 py-20 text-center">
             <div className="bg-white p-8 md:p-12 rounded-2xl shadow-xl -mt-32 relative z-20 border border-gray-100">
